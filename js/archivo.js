@@ -14,19 +14,19 @@ function updateImage(date){
 
     const temperaturaC = toCelcius(date.main.temp);
     if(temperaturaC >26){
-        src='/img/sunbro.jpg';
+        src='img/sunbro.jpg';
     }
     else if(temperaturaC > 20){
-        src='/img/soleado.png';
+        src='img/soleado.png';
     }
     else if(temperaturaC > 15){
-        src='../img/nublado.png';
+        src='https://raw.githubusercontent.com/JonathanArtetaH/Clima/gh-pages/img/nublado.png';
     }
     else if(temperaturaC > 10){
-        src='/img/aire-frio.png';
+        src='img/aire-frio.png';
     }
     else if(temperaturaC <7){
-        src='/img/temperaturabaja.png';
+        src='img/temperaturabaja.png';
     }  
     console.log(src); 
     img.src = src;
