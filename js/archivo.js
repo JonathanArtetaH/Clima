@@ -20,7 +20,7 @@ function updateImage(date){
         src='img/soleado.png';
     }
     else if(temperaturaC > 15){
-        src='img/nublado.png';
+        src='https://raw.githubusercontent.com/JonathanArtetaH/Clima/gh-pages/img/nublado.png';
     }
     else if(temperaturaC > 10){
         src='img/aire-frio.png';
